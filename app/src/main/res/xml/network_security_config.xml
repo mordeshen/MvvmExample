@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--author:mor-->
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+<!-- define domain that needed as http -->
+        <domain includeSubdomains="true">static.food2fork.com</domain>
+<!--        <domain includeSubdomains="true"></domain>-->
+    </domain-config>
+</network-security-config>
